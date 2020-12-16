@@ -31,7 +31,7 @@ sudo cmake --build build/ --target install
 sudo ldconfig
 ```
 
-  - Install curcpp
+  - Install curlpp
 ```
 git clone  https://github.com/jpbarrette/curlpp.git
 cd curcpp
@@ -87,4 +87,4 @@ int main()
 
 # Refenerce
 * paho.mqtt: https://github.com/eclipse/paho.mqtt.cpp
-
+* curlpp: https://github.com/jpbarrette/curlpp.git
