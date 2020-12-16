@@ -31,6 +31,14 @@ sudo cmake --build build/ --target install
 sudo ldconfig
 ```
 
+  - Install curcpp
+```
+git clone  https://github.com/jpbarrette/curlpp.git
+cd curcpp
+cmake . && sudo make && sudo make install
+sudo ldconfig
+```
+  
 ## Install:
 ```
 mkdir build
