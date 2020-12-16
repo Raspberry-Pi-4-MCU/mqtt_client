@@ -34,7 +34,7 @@ sudo ldconfig
   - Install curlpp
 ```
 git clone  https://github.com/jpbarrette/curlpp.git
-cd curcpp
+cd curlpp
 cmake . && sudo make && sudo make install
 sudo ldconfig
 ```
