@@ -35,10 +35,16 @@ sudo ldconfig
 ```
 git clone  https://github.com/jpbarrette/curlpp.git
 cd curlpp
-cmake . && sudo make && sudo make install
+cmake . && make && sudo make install
 sudo ldconfig
 ```
-  
+  - Install json
+```
+git clone https://github.com/nlohmann/json.git
+cd json && cmake . && make -j4 && sudo make install
+ldconfig
+```
+
 ## Install:
 ```
 mkdir build
@@ -88,3 +94,4 @@ int main()
 # Refenerce
 * paho.mqtt: https://github.com/eclipse/paho.mqtt.cpp
 * curlpp: https://github.com/jpbarrette/curlpp.git
+* json: https://github.com/nlohmann/json.git
